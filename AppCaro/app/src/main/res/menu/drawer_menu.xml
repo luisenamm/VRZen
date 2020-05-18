@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/v1"
+            android:icon="@drawable/ic_video"
+            android:title="Video1"/>
+        <item android:id="@+id/v2"
+            android:icon="@drawable/ic_video"
+            android:title="Video2"/>
+        <item android:id="@+id/v3"
+            android:icon="@drawable/ic_video"
+            android:title="Video3"/>
+    </group>
+
+
+    <item android:title="Contact us">
+        <menu>
+            <item android:id="@+id/nav_email"
+                android:icon="@drawable/ic_email"
+                android:title="Email"/>
+        </menu>
+    </item>
+
+</menu>
